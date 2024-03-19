@@ -1,0 +1,29 @@
+flex/no_name:
+  commands:
+    - type: table
+flex/no_type:
+  commands:
+    - name: command_name
+flex/invalid_type:
+  commands:
+    - name: command_name
+      type: invalid
+flex/no_interval:
+  commands:
+    - name: command_name
+      type: json
+flex/invalid_interval:
+  commands:
+    - name: command_name
+      type: json
+      interval: invalid
+flex/invalid_interval_threshold:
+  commands:
+    - name: command_name
+      type: json
+      interval: 1s
+flex/no_command:
+  commands:
+    - name: command_name
+      type: json
+      interval: 1m
